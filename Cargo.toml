@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+axum = { version = "0.7.0", features = ["macros"] }
+axum-messages = "0.7.0"
+tokio = { version = "1.41.1", features = ["full"] }
+tower-sessions = "0.13.0"
